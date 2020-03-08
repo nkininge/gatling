@@ -1,0 +1,91 @@
+RUN	dockerregistry.BasicSimulation	basicsimulation	1583684189042	 	3.3.1
+USER	DockerRegistry	2	START	1583684191266	1583684191266
+USER	DockerRegistry	6	START	1583684191266	1583684191266
+USER	DockerRegistry	8	START	1583684191267	1583684191267
+USER	DockerRegistry	7	START	1583684191267	1583684191267
+USER	DockerRegistry	5	START	1583684191267	1583684191267
+USER	DockerRegistry	4	START	1583684191266	1583684191266
+USER	DockerRegistry	1	START	1583684191266	1583684191266
+USER	DockerRegistry	3	START	1583684191266	1583684191266
+USER	DockerRegistry	9	START	1583684191267	1583684191267
+USER	DockerRegistry	10	START	1583684191267	1583684191267
+REQUEST	8		https://ui-docker-sandbox.infra.cloudera.com	1583684191296	1583684196836	OK	 
+REQUEST	10		https://ui-docker-sandbox.infra.cloudera.com	1583684191296	1583684196874	OK	 
+REQUEST	9		https://ui-docker-sandbox.infra.cloudera.com	1583684191296	1583684196941	OK	 
+REQUEST	2		https://ui-docker-sandbox.infra.cloudera.com	1583684191297	1583684197091	OK	 
+REQUEST	6		https://ui-docker-sandbox.infra.cloudera.com	1583684191296	1583684197589	OK	 
+REQUEST	4		https://ui-docker-sandbox.infra.cloudera.com	1583684191296	1583684200667	OK	 
+REQUEST	1		https://ui-docker-sandbox.infra.cloudera.com	1583684191296	1583684201110	OK	 
+REQUEST	3		https://ui-docker-sandbox.infra.cloudera.com	1583684191296	1583684201529	OK	 
+REQUEST	7		https://ui-docker-sandbox.infra.cloudera.com	1583684191296	1583684201659	OK	 
+REQUEST	8		https://ui-docker-sandbox.infra.cloudera.com/namespaces	1583684203865	1583684204186	OK	 
+REQUEST	2		https://ui-docker-sandbox.infra.cloudera.com/namespaces	1583684204113	1583684204432	OK	 
+REQUEST	8		https://ui-docker-sandbox.infra.cloudera.com/namespaces Redirect 1	1583684204191	1583684204526	OK	 
+REQUEST	5		https://ui-docker-sandbox.infra.cloudera.com	1583684191296	1583684204542	OK	 
+REQUEST	10		https://ui-docker-sandbox.infra.cloudera.com/namespaces	1583684203893	1583684205402	OK	 
+REQUEST	9		https://ui-docker-sandbox.infra.cloudera.com/namespaces	1583684203962	1583684205410	OK	 
+REQUEST	2		https://ui-docker-sandbox.infra.cloudera.com/namespaces Redirect 1	1583684204433	1583684205872	OK	 
+REQUEST	6		https://ui-docker-sandbox.infra.cloudera.com/namespaces	1583684204613	1583684206066	OK	 
+REQUEST	9		https://ui-docker-sandbox.infra.cloudera.com/namespaces Redirect 1	1583684205411	1583684207726	OK	 
+REQUEST	10		https://ui-docker-sandbox.infra.cloudera.com/namespaces Redirect 1	1583684205403	1583684208056	OK	 
+REQUEST	1		https://ui-docker-sandbox.infra.cloudera.com/namespaces	1583684208124	1583684208433	OK	 
+REQUEST	8		https://ui-docker-sandbox.infra.cloudera.com/repositories	1583684206523	1583684208524	OK	 
+REQUEST	1		https://ui-docker-sandbox.infra.cloudera.com/namespaces Redirect 1	1583684208434	1583684209016	OK	 
+REQUEST	6		https://ui-docker-sandbox.infra.cloudera.com/namespaces Redirect 1	1583684206067	1583684209112	OK	 
+REQUEST	9		https://ui-docker-sandbox.infra.cloudera.com/repositories	1583684209724	1583684210076	OK	 
+REQUEST	7		https://ui-docker-sandbox.infra.cloudera.com/namespaces	1583684208671	1583684210140	OK	 
+REQUEST	4		https://ui-docker-sandbox.infra.cloudera.com/namespaces	1583684207681	1583684210200	OK	 
+REQUEST	7		https://ui-docker-sandbox.infra.cloudera.com/namespaces Redirect 1	1583684210141	1583684210460	OK	 
+REQUEST	8		https://ui-docker-sandbox.infra.cloudera.com/repositories Redirect 1	1583684208526	1583684210520	OK	 
+REQUEST	3		https://ui-docker-sandbox.infra.cloudera.com/namespaces	1583684208544	1583684210520	OK	 
+REQUEST	2		https://ui-docker-sandbox.infra.cloudera.com/repositories	1583684207873	1583684210534	OK	 
+REQUEST	3		https://ui-docker-sandbox.infra.cloudera.com/namespaces Redirect 1	1583684210521	1583684211100	OK	 
+REQUEST	2		https://ui-docker-sandbox.infra.cloudera.com/repositories Redirect 1	1583684210534	1583684211111	OK	 
+REQUEST	1		https://ui-docker-sandbox.infra.cloudera.com/repositories	1583684211022	1583684211300	OK	 
+REQUEST	6		https://ui-docker-sandbox.infra.cloudera.com/repositories	1583684211112	1583684211394	OK	 
+REQUEST	10		https://ui-docker-sandbox.infra.cloudera.com/repositories	1583684210063	1583684211411	OK	 
+REQUEST	1		https://ui-docker-sandbox.infra.cloudera.com/repositories Redirect 1	1583684211301	1583684211597	OK	 
+REQUEST	4		https://ui-docker-sandbox.infra.cloudera.com/namespaces Redirect 1	1583684210202	1583684211773	OK	 
+REQUEST	9		https://ui-docker-sandbox.infra.cloudera.com/repositories Redirect 1	1583684210077	1583684211791	OK	 
+REQUEST	5		https://ui-docker-sandbox.infra.cloudera.com/namespaces	1583684211562	1583684211851	OK	 
+REQUEST	6		https://ui-docker-sandbox.infra.cloudera.com/repositories Redirect 1	1583684211396	1583684211986	OK	 
+REQUEST	10		https://ui-docker-sandbox.infra.cloudera.com/repositories Redirect 1	1583684211412	1583684211993	OK	 
+REQUEST	5		https://ui-docker-sandbox.infra.cloudera.com/namespaces Redirect 1	1583684211852	1583684212475	OK	 
+REQUEST	3		https://ui-docker-sandbox.infra.cloudera.com/repositories	1583684213102	1583684213493	OK	 
+REQUEST	8		https://ui-docker-sandbox.infra.cloudera.com/admin/users	1583684213514	1583684213832	OK	 
+REQUEST	7		https://ui-docker-sandbox.infra.cloudera.com/repositories	1583684212462	1583684213898	OK	 
+REQUEST	4		https://ui-docker-sandbox.infra.cloudera.com/repositories	1583684213782	1583684214084	OK	 
+REQUEST	3		https://ui-docker-sandbox.infra.cloudera.com/repositories Redirect 1	1583684213494	1583684214118	OK	 
+REQUEST	7		https://ui-docker-sandbox.infra.cloudera.com/repositories Redirect 1	1583684213899	1583684214215	OK	 
+REQUEST	2		https://ui-docker-sandbox.infra.cloudera.com/admin/users	1583684214101	1583684214414	OK	 
+REQUEST	8		https://ui-docker-sandbox.infra.cloudera.com/admin/users Redirect 1	1583684213833	1583684214437	OK	 
+REQUEST	4		https://ui-docker-sandbox.infra.cloudera.com/repositories Redirect 1	1583684214085	1583684214690	OK	 
+REQUEST	2		https://ui-docker-sandbox.infra.cloudera.com/admin/users Redirect 1	1583684214415	1583684214739	OK	 
+REQUEST	5		https://ui-docker-sandbox.infra.cloudera.com/repositories	1583684214472	1583684214782	OK	 
+REQUEST	1		https://ui-docker-sandbox.infra.cloudera.com/admin/users	1583684214603	1583684214906	OK	 
+REQUEST	1		https://ui-docker-sandbox.infra.cloudera.com/admin/users Redirect 1	1583684214907	1583684215219	OK	 
+REQUEST	5		https://ui-docker-sandbox.infra.cloudera.com/repositories Redirect 1	1583684214783	1583684216053	OK	 
+REQUEST	9		https://ui-docker-sandbox.infra.cloudera.com/admin/users	1583684214802	1583684216053	OK	 
+REQUEST	6		https://ui-docker-sandbox.infra.cloudera.com/admin/users	1583684214982	1583684216169	OK	 
+REQUEST	10		https://ui-docker-sandbox.infra.cloudera.com/admin/users	1583684214991	1583684216345	OK	 
+REQUEST	6		https://ui-docker-sandbox.infra.cloudera.com/admin/users Redirect 1	1583684216170	1583684216491	OK	 
+REQUEST	9		https://ui-docker-sandbox.infra.cloudera.com/admin/users Redirect 1	1583684216054	1583684216671	OK	 
+REQUEST	10		https://ui-docker-sandbox.infra.cloudera.com/admin/users Redirect 1	1583684216346	1583684216945	OK	 
+REQUEST	3		https://ui-docker-sandbox.infra.cloudera.com/admin/users	1583684217123	1583684217412	OK	 
+REQUEST	7		https://ui-docker-sandbox.infra.cloudera.com/admin/users	1583684217223	1583684217514	OK	 
+REQUEST	3		https://ui-docker-sandbox.infra.cloudera.com/admin/users Redirect 1	1583684217412	1583684217710	OK	 
+REQUEST	7		https://ui-docker-sandbox.infra.cloudera.com/admin/users Redirect 1	1583684217514	1583684217807	OK	 
+REQUEST	4		https://ui-docker-sandbox.infra.cloudera.com/admin/users	1583684217681	1583684217977	OK	 
+REQUEST	4		https://ui-docker-sandbox.infra.cloudera.com/admin/users Redirect 1	1583684217978	1583684218281	OK	 
+REQUEST	5		https://ui-docker-sandbox.infra.cloudera.com/admin/users	1583684219063	1583684219394	OK	 
+REQUEST	5		https://ui-docker-sandbox.infra.cloudera.com/admin/users Redirect 1	1583684219395	1583684220015	OK	 
+USER	DockerRegistry	9	END	1583684191267	1583684462696
+USER	DockerRegistry	4	END	1583684191266	1583684477776
+USER	DockerRegistry	6	END	1583684191266	1583684479257
+USER	DockerRegistry	8	END	1583684191267	1583684479841
+USER	DockerRegistry	1	END	1583684191266	1583684479918
+USER	DockerRegistry	2	END	1583684191266	1583684480273
+USER	DockerRegistry	7	END	1583684191267	1583684480358
+USER	DockerRegistry	3	END	1583684191266	1583684481274
+USER	DockerRegistry	10	END	1583684191267	1583684484349
+USER	DockerRegistry	5	END	1583684191267	1583684484349

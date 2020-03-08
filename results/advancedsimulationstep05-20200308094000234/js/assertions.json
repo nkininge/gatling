@@ -1,0 +1,10 @@
+{
+  "simulation": "dockerregistry.advanced.AdvancedSimulationStep05",
+  "simulationId": "advancedsimulationstep05",
+  "start": 1583660400234,
+  "description": "",
+  "scenarios": ["Users", "Admins"],
+  "assertions": [
+
+  ]
+}

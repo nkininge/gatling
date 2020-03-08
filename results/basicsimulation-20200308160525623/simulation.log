@@ -1,0 +1,61 @@
+RUN	dockerregistry.BasicSimulation	basicsimulation	1583683525623	 	3.3.1
+USER	DockerRegistry	2	START	1583683525869	1583683525869
+USER	DockerRegistry	9	START	1583683525870	1583683525870
+USER	DockerRegistry	1	START	1583683525869	1583683525869
+USER	DockerRegistry	6	START	1583683525869	1583683525869
+USER	DockerRegistry	7	START	1583683525869	1583683525869
+USER	DockerRegistry	10	START	1583683525870	1583683525870
+USER	DockerRegistry	8	START	1583683525870	1583683525870
+USER	DockerRegistry	5	START	1583683525869	1583683525869
+USER	DockerRegistry	4	START	1583683525869	1583683525869
+USER	DockerRegistry	3	START	1583683525869	1583683525869
+REQUEST	2		https://ui-docker-sandbox.infra.cloudera.com	1583683525897	1583683525898	KO	j.n.UnknownHostException: ui-docker-sandbox.infra.cloudera.com
+REQUEST	8		https://ui-docker-sandbox.infra.cloudera.com	1583683525897	1583683525898	KO	j.n.UnknownHostException: ui-docker-sandbox.infra.cloudera.com
+REQUEST	4		https://ui-docker-sandbox.infra.cloudera.com	1583683525897	1583683525897	KO	j.n.UnknownHostException: ui-docker-sandbox.infra.cloudera.com
+REQUEST	3		https://ui-docker-sandbox.infra.cloudera.com	1583683525897	1583683525898	KO	j.n.UnknownHostException: ui-docker-sandbox.infra.cloudera.com
+REQUEST	9		https://ui-docker-sandbox.infra.cloudera.com	1583683525897	1583683525898	KO	j.n.UnknownHostException: ui-docker-sandbox.infra.cloudera.com
+REQUEST	10		https://ui-docker-sandbox.infra.cloudera.com	1583683525897	1583683525898	KO	j.n.UnknownHostException: ui-docker-sandbox.infra.cloudera.com
+REQUEST	6		https://ui-docker-sandbox.infra.cloudera.com	1583683525897	1583683525897	KO	j.n.UnknownHostException: ui-docker-sandbox.infra.cloudera.com
+REQUEST	7		https://ui-docker-sandbox.infra.cloudera.com	1583683525897	1583683525897	KO	j.n.UnknownHostException: ui-docker-sandbox.infra.cloudera.com
+REQUEST	1		https://ui-docker-sandbox.infra.cloudera.com	1583683525897	1583683525898	KO	j.n.UnknownHostException: ui-docker-sandbox.infra.cloudera.com
+REQUEST	5		https://ui-docker-sandbox.infra.cloudera.com	1583683525897	1583683525897	KO	j.n.UnknownHostException: ui-docker-sandbox.infra.cloudera.com
+REQUEST	7		https://ui-docker-sandbox.infra.cloudera.com/namespaces	1583683532928	1583683532928	KO	j.n.UnknownHostException: ui-docker-sandbox.infra.cloudera.com
+REQUEST	10		https://ui-docker-sandbox.infra.cloudera.com/namespaces	1583683532928	1583683532928	KO	j.n.UnknownHostException: ui-docker-sandbox.infra.cloudera.com
+REQUEST	2		https://ui-docker-sandbox.infra.cloudera.com/namespaces	1583683532928	1583683532928	KO	j.n.UnknownHostException: ui-docker-sandbox.infra.cloudera.com
+REQUEST	3		https://ui-docker-sandbox.infra.cloudera.com/namespaces	1583683532928	1583683532928	KO	j.n.UnknownHostException: ui-docker-sandbox.infra.cloudera.com
+REQUEST	9		https://ui-docker-sandbox.infra.cloudera.com/namespaces	1583683532928	1583683532928	KO	j.n.UnknownHostException: ui-docker-sandbox.infra.cloudera.com
+REQUEST	1		https://ui-docker-sandbox.infra.cloudera.com/namespaces	1583683532928	1583683532928	KO	j.n.UnknownHostException: ui-docker-sandbox.infra.cloudera.com
+REQUEST	8		https://ui-docker-sandbox.infra.cloudera.com/namespaces	1583683532928	1583683532928	KO	j.n.UnknownHostException: ui-docker-sandbox.infra.cloudera.com
+REQUEST	4		https://ui-docker-sandbox.infra.cloudera.com/namespaces	1583683532928	1583683532928	KO	j.n.UnknownHostException: ui-docker-sandbox.infra.cloudera.com
+REQUEST	6		https://ui-docker-sandbox.infra.cloudera.com/namespaces	1583683532928	1583683532928	KO	j.n.UnknownHostException: ui-docker-sandbox.infra.cloudera.com
+REQUEST	5		https://ui-docker-sandbox.infra.cloudera.com/namespaces	1583683532928	1583683532928	KO	j.n.UnknownHostException: ui-docker-sandbox.infra.cloudera.com
+REQUEST	4		https://ui-docker-sandbox.infra.cloudera.com/repositories	1583683534927	1583683534927	KO	j.n.UnknownHostException: ui-docker-sandbox.infra.cloudera.com
+REQUEST	5		https://ui-docker-sandbox.infra.cloudera.com/repositories	1583683534927	1583683534927	KO	j.n.UnknownHostException: ui-docker-sandbox.infra.cloudera.com
+REQUEST	9		https://ui-docker-sandbox.infra.cloudera.com/repositories	1583683534927	1583683534927	KO	j.n.UnknownHostException: ui-docker-sandbox.infra.cloudera.com
+REQUEST	10		https://ui-docker-sandbox.infra.cloudera.com/repositories	1583683534927	1583683534927	KO	j.n.UnknownHostException: ui-docker-sandbox.infra.cloudera.com
+REQUEST	8		https://ui-docker-sandbox.infra.cloudera.com/repositories	1583683534927	1583683534927	KO	j.n.UnknownHostException: ui-docker-sandbox.infra.cloudera.com
+REQUEST	2		https://ui-docker-sandbox.infra.cloudera.com/repositories	1583683534927	1583683534927	KO	j.n.UnknownHostException: ui-docker-sandbox.infra.cloudera.com
+REQUEST	6		https://ui-docker-sandbox.infra.cloudera.com/repositories	1583683534927	1583683534927	KO	j.n.UnknownHostException: ui-docker-sandbox.infra.cloudera.com
+REQUEST	3		https://ui-docker-sandbox.infra.cloudera.com/repositories	1583683534927	1583683534927	KO	j.n.UnknownHostException: ui-docker-sandbox.infra.cloudera.com
+REQUEST	7		https://ui-docker-sandbox.infra.cloudera.com/repositories	1583683534927	1583683534927	KO	j.n.UnknownHostException: ui-docker-sandbox.infra.cloudera.com
+REQUEST	1		https://ui-docker-sandbox.infra.cloudera.com/repositories	1583683534927	1583683534927	KO	j.n.UnknownHostException: ui-docker-sandbox.infra.cloudera.com
+REQUEST	3		https://ui-docker-sandbox.infra.cloudera.com/admin/users	1583683537926	1583683537926	KO	j.n.UnknownHostException: ui-docker-sandbox.infra.cloudera.com
+REQUEST	6		https://ui-docker-sandbox.infra.cloudera.com/admin/users	1583683537926	1583683537926	KO	j.n.UnknownHostException: ui-docker-sandbox.infra.cloudera.com
+REQUEST	7		https://ui-docker-sandbox.infra.cloudera.com/admin/users	1583683537926	1583683537926	KO	j.n.UnknownHostException: ui-docker-sandbox.infra.cloudera.com
+REQUEST	8		https://ui-docker-sandbox.infra.cloudera.com/admin/users	1583683537926	1583683537926	KO	j.n.UnknownHostException: ui-docker-sandbox.infra.cloudera.com
+REQUEST	1		https://ui-docker-sandbox.infra.cloudera.com/admin/users	1583683537926	1583683537926	KO	j.n.UnknownHostException: ui-docker-sandbox.infra.cloudera.com
+REQUEST	9		https://ui-docker-sandbox.infra.cloudera.com/admin/users	1583683537926	1583683537926	KO	j.n.UnknownHostException: ui-docker-sandbox.infra.cloudera.com
+REQUEST	5		https://ui-docker-sandbox.infra.cloudera.com/admin/users	1583683537926	1583683537926	KO	j.n.UnknownHostException: ui-docker-sandbox.infra.cloudera.com
+REQUEST	10		https://ui-docker-sandbox.infra.cloudera.com/admin/users	1583683537926	1583683537926	KO	j.n.UnknownHostException: ui-docker-sandbox.infra.cloudera.com
+REQUEST	4		https://ui-docker-sandbox.infra.cloudera.com/admin/users	1583683537926	1583683537927	KO	j.n.UnknownHostException: ui-docker-sandbox.infra.cloudera.com: nodename nor servname provided, or not known
+REQUEST	2		https://ui-docker-sandbox.infra.cloudera.com/admin/users	1583683537926	1583683537927	KO	j.n.UnknownHostException: ui-docker-sandbox.infra.cloudera.com
+USER	DockerRegistry	4	END	1583683525869	1583683541468
+USER	DockerRegistry	5	END	1583683525869	1583683541468
+USER	DockerRegistry	3	END	1583683525869	1583683541468
+USER	DockerRegistry	8	END	1583683525870	1583683541952
+USER	DockerRegistry	1	END	1583683525869	1583683541952
+USER	DockerRegistry	2	END	1583683525869	1583683541952
+USER	DockerRegistry	9	END	1583683525870	1583683541952
+USER	DockerRegistry	6	END	1583683525869	1583683541952
+USER	DockerRegistry	10	END	1583683525870	1583683541954
+USER	DockerRegistry	7	END	1583683525869	1583683541954

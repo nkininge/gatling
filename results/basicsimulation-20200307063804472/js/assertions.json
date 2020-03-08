@@ -1,0 +1,10 @@
+{
+  "simulation": "dockerregistry.BasicSimulation",
+  "simulationId": "basicsimulation",
+  "start": 1583563084472,
+  "description": "",
+  "scenarios": ["Scenario Name"],
+  "assertions": [
+
+  ]
+}

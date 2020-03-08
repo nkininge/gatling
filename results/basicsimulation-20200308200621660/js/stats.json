@@ -1,0 +1,629 @@
+{
+  "type": "GROUP",
+"name": "Global Information",
+"path": "",
+"pathFormatted": "group_missing-name-b06d1",
+"stats": {
+    "name": "Global Information",
+    "numberOfRequests": {
+        "total": 7,
+        "ok": 7,
+        "ko": 0
+    },
+    "minResponseTime": {
+        "total": 285,
+        "ok": 285,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 4401,
+        "ok": 4401,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 906,
+        "ok": 906,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 1427,
+        "ok": 1427,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 313,
+        "ok": 313,
+        "ko": 0
+    },
+    "percentiles2": {
+        "total": 382,
+        "ok": 382,
+        "ko": 0
+    },
+    "percentiles3": {
+        "total": 3204,
+        "ok": 3204,
+        "ko": 0
+    },
+    "percentiles4": {
+        "total": 4162,
+        "ok": 4162,
+        "ko": 0
+    },
+    "group1": {
+    "name": "t < 800 ms",
+    "count": 6,
+    "percentage": 86
+},
+    "group2": {
+    "name": "800 ms < t < 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group3": {
+    "name": "t > 1200 ms",
+    "count": 1,
+    "percentage": 14
+},
+    "group4": {
+    "name": "failed",
+    "count": 0,
+    "percentage": 0
+},
+    "meanNumberOfRequestsPerSecond": {
+        "total": 0.3684210526315789,
+        "ok": 0.3684210526315789,
+        "ko": 0
+    }
+},
+"contents": {
+"req_https---ui-dock-39a04": {
+        "type": "REQUEST",
+        "name": "https://ui-docker-sandbox.infra.cloudera.com",
+"path": "https://ui-docker-sandbox.infra.cloudera.com",
+"pathFormatted": "req_https---ui-dock-39a04",
+"stats": {
+    "name": "https://ui-docker-sandbox.infra.cloudera.com",
+    "numberOfRequests": {
+        "total": 1,
+        "ok": 1,
+        "ko": 0
+    },
+    "minResponseTime": {
+        "total": 4401,
+        "ok": 4401,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 4401,
+        "ok": 4401,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 4401,
+        "ok": 4401,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 0,
+        "ok": 0,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 4401,
+        "ok": 4401,
+        "ko": 0
+    },
+    "percentiles2": {
+        "total": 4401,
+        "ok": 4401,
+        "ko": 0
+    },
+    "percentiles3": {
+        "total": 4401,
+        "ok": 4401,
+        "ko": 0
+    },
+    "percentiles4": {
+        "total": 4401,
+        "ok": 4401,
+        "ko": 0
+    },
+    "group1": {
+    "name": "t < 800 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group2": {
+    "name": "800 ms < t < 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group3": {
+    "name": "t > 1200 ms",
+    "count": 1,
+    "percentage": 100
+},
+    "group4": {
+    "name": "failed",
+    "count": 0,
+    "percentage": 0
+},
+    "meanNumberOfRequestsPerSecond": {
+        "total": 0.05263157894736842,
+        "ok": 0.05263157894736842,
+        "ko": 0
+    }
+}
+    },"req_https---ui-dock-78406": {
+        "type": "REQUEST",
+        "name": "https://ui-docker-sandbox.infra.cloudera.com/namespaces",
+"path": "https://ui-docker-sandbox.infra.cloudera.com/namespaces",
+"pathFormatted": "req_https---ui-dock-78406",
+"stats": {
+    "name": "https://ui-docker-sandbox.infra.cloudera.com/namespaces",
+    "numberOfRequests": {
+        "total": 1,
+        "ok": 1,
+        "ko": 0
+    },
+    "minResponseTime": {
+        "total": 313,
+        "ok": 313,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 313,
+        "ok": 313,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 313,
+        "ok": 313,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 0,
+        "ok": 0,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 313,
+        "ok": 313,
+        "ko": 0
+    },
+    "percentiles2": {
+        "total": 313,
+        "ok": 313,
+        "ko": 0
+    },
+    "percentiles3": {
+        "total": 313,
+        "ok": 313,
+        "ko": 0
+    },
+    "percentiles4": {
+        "total": 313,
+        "ok": 313,
+        "ko": 0
+    },
+    "group1": {
+    "name": "t < 800 ms",
+    "count": 1,
+    "percentage": 100
+},
+    "group2": {
+    "name": "800 ms < t < 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group3": {
+    "name": "t > 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group4": {
+    "name": "failed",
+    "count": 0,
+    "percentage": 0
+},
+    "meanNumberOfRequestsPerSecond": {
+        "total": 0.05263157894736842,
+        "ok": 0.05263157894736842,
+        "ko": 0
+    }
+}
+    },"req_https---ui-dock-d8d33": {
+        "type": "REQUEST",
+        "name": "https://ui-docker-sandbox.infra.cloudera.com/namespaces Redirect 1",
+"path": "https://ui-docker-sandbox.infra.cloudera.com/namespaces Redirect 1",
+"pathFormatted": "req_https---ui-dock-d8d33",
+"stats": {
+    "name": "https://ui-docker-sandbox.infra.cloudera.com/namespaces Redirect 1",
+    "numberOfRequests": {
+        "total": 1,
+        "ok": 1,
+        "ko": 0
+    },
+    "minResponseTime": {
+        "total": 293,
+        "ok": 293,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 293,
+        "ok": 293,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 293,
+        "ok": 293,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 0,
+        "ok": 0,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 293,
+        "ok": 293,
+        "ko": 0
+    },
+    "percentiles2": {
+        "total": 293,
+        "ok": 293,
+        "ko": 0
+    },
+    "percentiles3": {
+        "total": 293,
+        "ok": 293,
+        "ko": 0
+    },
+    "percentiles4": {
+        "total": 293,
+        "ok": 293,
+        "ko": 0
+    },
+    "group1": {
+    "name": "t < 800 ms",
+    "count": 1,
+    "percentage": 100
+},
+    "group2": {
+    "name": "800 ms < t < 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group3": {
+    "name": "t > 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group4": {
+    "name": "failed",
+    "count": 0,
+    "percentage": 0
+},
+    "meanNumberOfRequestsPerSecond": {
+        "total": 0.05263157894736842,
+        "ok": 0.05263157894736842,
+        "ko": 0
+    }
+}
+    },"req_https---ui-dock-fb63b": {
+        "type": "REQUEST",
+        "name": "https://ui-docker-sandbox.infra.cloudera.com/repositories",
+"path": "https://ui-docker-sandbox.infra.cloudera.com/repositories",
+"pathFormatted": "req_https---ui-dock-fb63b",
+"stats": {
+    "name": "https://ui-docker-sandbox.infra.cloudera.com/repositories",
+    "numberOfRequests": {
+        "total": 1,
+        "ok": 1,
+        "ko": 0
+    },
+    "minResponseTime": {
+        "total": 351,
+        "ok": 351,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 351,
+        "ok": 351,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 351,
+        "ok": 351,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 0,
+        "ok": 0,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 351,
+        "ok": 351,
+        "ko": 0
+    },
+    "percentiles2": {
+        "total": 351,
+        "ok": 351,
+        "ko": 0
+    },
+    "percentiles3": {
+        "total": 351,
+        "ok": 351,
+        "ko": 0
+    },
+    "percentiles4": {
+        "total": 351,
+        "ok": 351,
+        "ko": 0
+    },
+    "group1": {
+    "name": "t < 800 ms",
+    "count": 1,
+    "percentage": 100
+},
+    "group2": {
+    "name": "800 ms < t < 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group3": {
+    "name": "t > 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group4": {
+    "name": "failed",
+    "count": 0,
+    "percentage": 0
+},
+    "meanNumberOfRequestsPerSecond": {
+        "total": 0.05263157894736842,
+        "ok": 0.05263157894736842,
+        "ko": 0
+    }
+}
+    },"req_https---ui-dock-a37fa": {
+        "type": "REQUEST",
+        "name": "https://ui-docker-sandbox.infra.cloudera.com/repositories Redirect 1",
+"path": "https://ui-docker-sandbox.infra.cloudera.com/repositories Redirect 1",
+"pathFormatted": "req_https---ui-dock-a37fa",
+"stats": {
+    "name": "https://ui-docker-sandbox.infra.cloudera.com/repositories Redirect 1",
+    "numberOfRequests": {
+        "total": 1,
+        "ok": 1,
+        "ko": 0
+    },
+    "minResponseTime": {
+        "total": 412,
+        "ok": 412,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 412,
+        "ok": 412,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 412,
+        "ok": 412,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 0,
+        "ok": 0,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 412,
+        "ok": 412,
+        "ko": 0
+    },
+    "percentiles2": {
+        "total": 412,
+        "ok": 412,
+        "ko": 0
+    },
+    "percentiles3": {
+        "total": 412,
+        "ok": 412,
+        "ko": 0
+    },
+    "percentiles4": {
+        "total": 412,
+        "ok": 412,
+        "ko": 0
+    },
+    "group1": {
+    "name": "t < 800 ms",
+    "count": 1,
+    "percentage": 100
+},
+    "group2": {
+    "name": "800 ms < t < 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group3": {
+    "name": "t > 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group4": {
+    "name": "failed",
+    "count": 0,
+    "percentage": 0
+},
+    "meanNumberOfRequestsPerSecond": {
+        "total": 0.05263157894736842,
+        "ok": 0.05263157894736842,
+        "ko": 0
+    }
+}
+    },"req_https---ui-dock-7c4f2": {
+        "type": "REQUEST",
+        "name": "https://ui-docker-sandbox.infra.cloudera.com/admin/users",
+"path": "https://ui-docker-sandbox.infra.cloudera.com/admin/users",
+"pathFormatted": "req_https---ui-dock-7c4f2",
+"stats": {
+    "name": "https://ui-docker-sandbox.infra.cloudera.com/admin/users",
+    "numberOfRequests": {
+        "total": 1,
+        "ok": 1,
+        "ko": 0
+    },
+    "minResponseTime": {
+        "total": 285,
+        "ok": 285,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 285,
+        "ok": 285,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 285,
+        "ok": 285,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 0,
+        "ok": 0,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 285,
+        "ok": 285,
+        "ko": 0
+    },
+    "percentiles2": {
+        "total": 285,
+        "ok": 285,
+        "ko": 0
+    },
+    "percentiles3": {
+        "total": 285,
+        "ok": 285,
+        "ko": 0
+    },
+    "percentiles4": {
+        "total": 285,
+        "ok": 285,
+        "ko": 0
+    },
+    "group1": {
+    "name": "t < 800 ms",
+    "count": 1,
+    "percentage": 100
+},
+    "group2": {
+    "name": "800 ms < t < 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group3": {
+    "name": "t > 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group4": {
+    "name": "failed",
+    "count": 0,
+    "percentage": 0
+},
+    "meanNumberOfRequestsPerSecond": {
+        "total": 0.05263157894736842,
+        "ok": 0.05263157894736842,
+        "ko": 0
+    }
+}
+    },"req_https---ui-dock-ce5b4": {
+        "type": "REQUEST",
+        "name": "https://ui-docker-sandbox.infra.cloudera.com/admin/users Redirect 1",
+"path": "https://ui-docker-sandbox.infra.cloudera.com/admin/users Redirect 1",
+"pathFormatted": "req_https---ui-dock-ce5b4",
+"stats": {
+    "name": "https://ui-docker-sandbox.infra.cloudera.com/admin/users Redirect 1",
+    "numberOfRequests": {
+        "total": 1,
+        "ok": 1,
+        "ko": 0
+    },
+    "minResponseTime": {
+        "total": 289,
+        "ok": 289,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 289,
+        "ok": 289,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 289,
+        "ok": 289,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 0,
+        "ok": 0,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 289,
+        "ok": 289,
+        "ko": 0
+    },
+    "percentiles2": {
+        "total": 289,
+        "ok": 289,
+        "ko": 0
+    },
+    "percentiles3": {
+        "total": 289,
+        "ok": 289,
+        "ko": 0
+    },
+    "percentiles4": {
+        "total": 289,
+        "ok": 289,
+        "ko": 0
+    },
+    "group1": {
+    "name": "t < 800 ms",
+    "count": 1,
+    "percentage": 100
+},
+    "group2": {
+    "name": "800 ms < t < 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group3": {
+    "name": "t > 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group4": {
+    "name": "failed",
+    "count": 0,
+    "percentage": 0
+},
+    "meanNumberOfRequestsPerSecond": {
+        "total": 0.05263157894736842,
+        "ok": 0.05263157894736842,
+        "ko": 0
+    }
+}
+    }
+}
+
+}
