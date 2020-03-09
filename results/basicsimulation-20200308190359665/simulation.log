@@ -1,4 +1,0 @@
-RUN	dockerregistry.BasicSimulation	basicsimulation	1583694239665	 	3.3.1
-USER	DockerRegistry	1	START	1583694241900	1583694241900
-REQUEST	1		Get session	1583694407547	1583694407548	KO	j.n.UnknownHostException: ui-docker-sandbox.infra.cloudera.comrepositories: nodename nor servname provided, or not known
-USER	DockerRegistry	1	END	1583694241900	1583694407554

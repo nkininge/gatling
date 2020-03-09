@@ -1,0 +1,10 @@
+{
+  "simulation": "dockersandbox.BasicSimulation",
+  "simulationId": "basicsimulation",
+  "start": 1583726441144,
+  "description": "",
+  "scenarios": ["DockerSandbox"],
+  "assertions": [
+
+  ]
+}

@@ -42,5 +42,8 @@ class BasicSimulation extends Simulation {
         .exec{
          http("Get session").get("/")
              }
-  setUp(scn.inject(atOnceUsers(1)).protocols(httpProtocol))
+
+        setUp(
+        scn.inject(rampUsers(REPLACE_USERS) during (REPLACE_TIME seconds)),
+        ).protocols(httpProtocol)
 }

@@ -1,7 +1,0 @@
-RUN	dockerregistry.BasicSimulation	basicsimulation	1583563084472	 	3.3.1
-USER	Scenario Name	1	START	1583563086716	1583563086716
-REQUEST	1		request_1	1583563086733	1583563086956	KO	j.n.UnknownHostException: ui-docker-sandbox.infra.cloudera.: nodename nor servname provided, or not known
-REQUEST	1		request_2	1583563093982	1583563093982	KO	j.n.UnknownHostException: ui-docker-sandbox.infra.cloudera.
-REQUEST	1		request_3	1583563095982	1583563095982	KO	j.n.UnknownHostException: ui-docker-sandbox.infra.cloudera.
-REQUEST	1		request_4	1583563098980	1583563098981	KO	j.n.UnknownHostException: ui-docker-sandbox.infra.cloudera.: nodename nor servname provided, or not known
-USER	Scenario Name	1	END	1583563086716	1583563098985

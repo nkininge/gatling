@@ -38,12 +38,14 @@ class BasicSimulation extends Simulation {
             session => {
                      "docker login docker-sandbox.infra.cloudera.com -u docker-sandbox-rw -p y8wrEj9_".!
                      "docker push docker-sandbox.infra.cloudera.com/base-centos7:0.1.0.0-82".!
-                     "docker-sandbox.infra.cloudera.com/base-amazonlinux2:0.1.0.0-92".!
-                     //"docker-sandbox.infra.cloudera.com/base-ubuntu14:0.1.0.0-92".!
-                     //"docker-sandbox.infra.cloudera.com/base-sles12sp1:0.1.0.0-103".!
-                     //"docker-sandbox.infra.cloudera.com/base-debian9.3:0.1.0.0-92".!
+                     "docker push docker-sandbox.infra.cloudera.com/base-amazonlinux2:0.1.0.0-92".!
+                     "docker push docker-sandbox.infra.cloudera.com/base-ubuntu14:0.1.0.0-92".!
+                     "docker push docker-sandbox.infra.cloudera.com/base-sles12sp1:0.1.0.0-103".!
+                     "docker push docker-sandbox.infra.cloudera.com/base-debian9.3:0.1.0.0-92".!
                      session
                              }
         )
-  setUp(scn.inject(atOnceUsers(1)).protocols(httpProtocol))
+   setUp(
+    scn.inject(rampUsers(REPLACE_USERS) during (REPLACE_TIME seconds)),
+  ).protocols(httpProtocol)
 }

@@ -1,4 +1,0 @@
-RUN	dockerregistry.BasicSimulation	basicsimulation	1583685782002	 	3.3.1
-USER	DockerRegistry	1	START	1583685784240	1583685784240
-REQUEST	1		https://ui-docker-sandbox.infra.cloudera.com	1583685852155	1583685853498	OK	 
-USER	DockerRegistry	1	END	1583685784240	1583685853518
