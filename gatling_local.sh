@@ -15,5 +15,5 @@ fi
 if [[ "$1" == "Advance" ]]; then
 
 sh bin/gatling.sh -sf user-files/simulations/ -s DockerSandboxSimulation
-sh bin/gatling.sh -sf user-files/simulations/ -s DockerTestOKD        
+sh bin/gatling.sh -sf user-files/simulations/ -s DockerTestOKDSimulation        
 fi 
