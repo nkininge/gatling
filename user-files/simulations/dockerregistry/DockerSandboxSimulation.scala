@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package dockersandbox
+//package dockersandbox
 
 import io.gatling.core.Predef._
 import io.gatling.http.Predef._
 import scala.concurrent.duration._
 import sys.process._
-class BasicSimulation extends Simulation {
+class DockerSandboxSimulation extends Simulation {
 
   val httpProtocol = http
     .baseUrl("https://ui-docker-sandbox.infra.cloudera.com") // Here is the root for all relative URLs

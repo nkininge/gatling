@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package dockertestokd
+//package dockertestokd
 
 import io.gatling.core.Predef._
 import io.gatling.http.Predef._
 import scala.concurrent.duration._
 import sys.process._
-class BasicSimulation extends Simulation {
+class DockerTestOKDSimulation extends Simulation {
 
   val httpProtocol = http
     .baseUrl("https://ui-docker-test.okd-us-west.kc-dev.cloudera.com") // Here is the root for all relative URLs
