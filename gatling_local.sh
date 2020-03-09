@@ -4,6 +4,7 @@ echo "*********************************\n "
 _USERS=$2
 _TIME=$3
 if [[ "$1" == "Basic" ]]; then
+sed -i "s/REPLACE_USERS/$_USERS/g" user-files/simulations/dockerregistry/BasicSimulation.scala
 sh bin/gatling.sh -sf user-files/simulations/ -s BasicSimulation
 fi
 if [[ "$1" == "Advance" ]]; then

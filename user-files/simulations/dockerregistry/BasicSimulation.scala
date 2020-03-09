@@ -50,5 +50,5 @@ class BasicSimulation extends Simulation {
       http("https://ui-docker-sandbox.infra.cloudera.com/admin/users")
         .get("/admin/users")
     )
-  setUp(scn.inject(atOnceUsers(1)).protocols(httpProtocol))
+  setUp(scn.inject(atOnceUsers(REPLACE_USERS)).protocols(httpProtocol))
 }
