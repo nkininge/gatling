@@ -36,6 +36,9 @@ class DockerTestOKDSimulation extends Simulation {
                      "docker login docker-test.okd-us-west.kc-dev.cloudera.com -u docker-private-rw -p s-OBrl3R".!
                      "docker push docker-test.okd-us-west.kc-dev.cloudera.com/base-centos7:0.1.0.0-82".!
                      "docker push docker-test.okd-us-west.kc-dev.cloudera.com/base-amazonlinux2:0.1.0.0-92".!
+                     "docker push docker-test.okd-us-west.kc-dev.cloudera.com/base-ubuntu14:0.1.0.0-92".!
+                     "docker push docker-test.okd-us-west.kc-dev.cloudera.com/base-sles12sp1:0.1.0.0-103".!
+                     "docker push docker-test.okd-us-west.kc-dev.cloudera.com/base-debian9.3:0.1.0.0-92".!
                      session
                              }
         )
